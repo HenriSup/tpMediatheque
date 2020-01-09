@@ -24,7 +24,20 @@ namespace TpMediatheque
             maMediaLibrairie.AddMedia(maBd);
             maMediaLibrairie.AddMedia(monDVD);
 
-            //à tester
+            maMediaLibrairie.AddMember(new Member("Gowtiay", "Molard"));
+
+            Member membre = maMediaLibrairie.Members[0];
+
+            maMediaLibrairie.BorrowMedia(monDVD,membre);
+            maMediaLibrairie.BorrowMedia(monLivre, membre);
+
+            foreach(Media media in maMediaLibrairie.Members[0].Medias)
+            {
+                Console.WriteLine("Titre: " + media.Title + "\nId:"+ media.Id +"\n");
+            }
+            
+
+            Console.ReadLine();
         }
     }
 }

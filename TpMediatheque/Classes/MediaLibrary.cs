@@ -50,22 +50,40 @@ namespace TpMediatheque.Classes
         {
             int mediaIndex = Medias.FindIndex(m => m.Id == media.Id);
 
-            if (member.Medias.Count >= 3)
+            if (mediaIndex != -1)
             {
-                Console.WriteLine("Le client " + member.FirstName + " " + member.LastName + " ne peut plus emprunter");
-            }
-            else
-            {
-                if (media.Stock <= 0)
+                if (member.Medias.Count < 3)
                 {
-                    Console.WriteLine("A pu faut commander");
+                    if (media.Stock > 0)
+                    {
+                        //trouver le putain de membre et modifier ses trucs
+                        int memberIndex = Members.FindIndex(m => m.Id == member.Id);
+
+                        if (memberIndex != -1)
+                        {
+                            Members[memberIndex].AddMedia(media);
+                            Medias[mediaIndex].Stock--;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Le membre n'est pas dans la liste");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("A pu faut commander");
+                    }
                 }
                 else
                 {
-                    member.Medias.Add(media);
-                    Medias[mediaIndex].Stock--;
+                    Console.WriteLine("Le client " + member.FirstName + " " + member.LastName + " ne peut plus emprunter");
                 }
             }
+            else
+            {
+                Console.WriteLine("Le membre est introuvable dans la liste");
+            }
+
         }
     }
 }

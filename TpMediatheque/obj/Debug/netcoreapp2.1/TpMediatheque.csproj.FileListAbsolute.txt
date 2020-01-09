@@ -1,0 +1,11 @@
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\bin\Debug\netcoreapp2.1\TpMediatheque.deps.json
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\bin\Debug\netcoreapp2.1\TpMediatheque.runtimeconfig.json
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\bin\Debug\netcoreapp2.1\TpMediatheque.runtimeconfig.dev.json
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\bin\Debug\netcoreapp2.1\TpMediatheque.dll
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\bin\Debug\netcoreapp2.1\TpMediatheque.pdb
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\obj\Debug\netcoreapp2.1\TpMediatheque.csprojAssemblyReference.cache
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\obj\Debug\netcoreapp2.1\TpMediatheque.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\obj\Debug\netcoreapp2.1\TpMediatheque.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\obj\Debug\netcoreapp2.1\TpMediatheque.AssemblyInfo.cs
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\obj\Debug\netcoreapp2.1\TpMediatheque.dll
+C:\Users\Administrateur\Source\Repos\m2imcpd\TpMediatheque\TpMediatheque\obj\Debug\netcoreapp2.1\TpMediatheque.pdb

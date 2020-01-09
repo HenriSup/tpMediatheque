@@ -18,7 +18,7 @@ namespace TpMediatheque.Classes
         public string LastName { get => lastName; set => lastName = value; }
         public List<Media> Medias { get => medias; set => medias = value; }
 
-        public Member(String firstName, String lastName, List<Media> medias)
+        public Member(String firstName, String lastName)
         {
             this.id = counter;
             FirstName = firstName;
